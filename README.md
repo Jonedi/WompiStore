@@ -1,56 +1,60 @@
 # WompiStore
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta tienda está desarrollada en VueJS, se utilizó la pasarela de pago de Wompi.
 
-## Recommended IDE Setup
+Al hacer clic sobre la imagen o sobre el botón `ver producto`, lo llevará a la interna del producto, donde están todas las características del producto. Se debe elegir una talla antes de enviar el producto al carrito. Si no se hace, el botón `agregar al carrito` estará deshabilitado.
+
+En la página del carrito, podrá ver los productos seleccionados y al hacer clic sobre el botón pagar, lo enviará a la pasarela de pago. En la parte izquierda de la fila del producto, podra encontrar el botón para eliminar el producto del carrito.
+
+## Configuraciones recomendadas del IDE
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Configuración personalizada del manejador de paquetes
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Configuración del proyecto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilación en la versión de desarrollo
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Configuración minificada para producción
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Ejecutar Unit Tests con [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+### Ejecutar End-to-End Tests con [Cypress](https://www.cypress.io/)
 
 ```sh
 npm run test:e2e:dev
 ```
 
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
+Esto ejecuta las pruebas de extremo a extremo contra el servidor de desarrollo de Vite.
+Es mucho más rápido que la compilación de producción.
 
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
+También se recomienda probar la compilación de producción con `test:e2e` abtes de implementar (ej. en entornos CI):
 
 ```sh
 npm run build
 npm run test:e2e
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint con [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
