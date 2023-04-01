@@ -2,7 +2,7 @@
 <template>
     <v-app class="container-xl">
       <AppBar />
-      <default-view id="mainID"/>
+      <default-view id="mainID" class="mt-15"/>
       <Footer />
     </v-app>
   </template>

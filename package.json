@@ -13,10 +13,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@mdi/font": "7.0.96",
+    "core-js": "^3.8.3",
     "pinia": "^2.0.32",
+    "shortid": "^2.2.16",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
-    "vuetify": "^3.1.12"
+    "vuetify": "^3.1.12",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

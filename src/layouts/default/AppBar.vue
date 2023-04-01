@@ -5,7 +5,7 @@ import { onMounted } from "vue";
 import Header from '@/components/section/Header.vue'
 
 onMounted(() => {
-  /* window.onscroll = function() {
+  window.onscroll = function() {
     const navbar = document.getElementById("navbar");
     navbar.classList.add("bg-transparent");
     const main = document.getElementById("mainID");
@@ -14,7 +14,7 @@ onMounted(() => {
       navbar.classList.remove("bg-transparent");
     }
     else navbar.classList.add("bg-transparent");
-  } */
+  }
 });
 </script>
 

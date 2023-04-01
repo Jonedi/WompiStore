@@ -9,7 +9,17 @@ const routes = [
         path: '',
         name: 'home',
         component: () => import(/* webpackChunkName: "home" */ '@/views/HomeView.vue'),
-      }
+      },
+      {
+        path: '/product/:id',
+        name: 'product',
+        component: () => import(/* webpackChunkName: "product" */ '@/views/ProductView.vue'),
+      },
+      {
+        path: '/checkout',
+        name: 'checkout',
+        component: () => import(/* webpackChunkName: "home" */ '@/views/CheckoutView.vue'),
+      },
     ]
   },
 ]
